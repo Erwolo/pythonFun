@@ -40,6 +40,8 @@ class Player(arcade.Sprite):
             self.top = SCREEN_HEIGHT - 1
 
 
+
+
 class MyGame(arcade.Window):
     """
     Main application class.
@@ -76,7 +78,7 @@ class MyGame(arcade.Window):
         self.player_list = arcade.SpriteList()
 
         # Set up the player
-        self.player_sprite = Player(":resources:images/animated_characters/ja/abc1.png", SPRITE_SCALING)
+        self.player_sprite = Player("./abc1.png", SPRITE_SCALING)
         self.player_sprite.center_x = 50
         self.player_sprite.center_y = 50
         self.player_list.append(self.player_sprite)
