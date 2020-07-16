@@ -13,4 +13,6 @@ label_b.pack()
 frame_1.pack()
 frame_2.pack()
 
+print('ugabuga')
+
 window.mainloop()
